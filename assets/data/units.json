@@ -1,0 +1,158 @@
+[
+  {
+    "unit": 1,
+    "phase": "one",
+    "unitInfo": {
+      "grammar": {
+        "grammarTitle": "An introduction to Minionese.",
+        "grammarSummary": "Minionese is a fictional language made up of a bunch of funny or interesting-sounding words from different languages.",
+        "grammarCompleted": true
+      },
+      "vocab": {
+        "vocabSummary": [
+          { "word": "kemari", "translation": "come here" },
+          { "word": "kanpai!", "translation": "cheers!" },
+          { "word": "naje", "translation": "take it!" },
+          { "word": "be wakuf", "translation": "idiot" }
+        ],
+        "vocabCompleted": true
+      },
+      "dialogue": {
+        "newDialogue": "Minions conversing with each other.",
+        "dialogueCompleted": true
+      }
+    },
+    "unitCompleted": true,
+    "completedDate": ""
+  },
+  {
+    "unit": 2,
+    "phase": "one",
+    "unitInfo": {
+      "grammar": {
+        "grammarTitle": "Learning the rules of Minionese",
+        "grammarSummary": "A part of Minion language is made up of gibberish- Minions often combine simple consonant-vowel syllables to create their silly speech.",
+        "grammarCompleted": true
+      },
+      "vocab": {
+        "vocabSummary": [
+          { "word": "Que paso?", "translation": "what happened?" },
+          { "word": "C'est par là", "translation": "this way" },
+          { "word": "Gelato", "translation": "ice cream" },
+          { "word": "Hana, dul, sae", "translation": "-1, 2, 3" }
+        ],
+        "vocabCompleted": true
+      },
+      "dialogue": {
+        "newDialogue": "Gru asks the minions to get Agnes a new unicorn toy.",
+        "dialogueCompleted": true
+      }
+    },
+    "unitCompleted": false,
+    "completedDate": ""
+  },
+  {
+    "unit": 3,
+    "phase": "one",
+    "unitInfo": {
+      "grammar": {
+        "grammarTitle": "Bringing in phrases from different languages",
+        "grammarSummary": "Minionese is made up words and phrases from around the world, including Spanish, French, Korea, Japanese, Chinese, Italian, Hindi, and Indonesian.",
+        "grammarCompleted": true
+      },
+      "vocab": {
+        "vocabSummary": [
+          { "word": "Po ka?", "translation": "what?" },
+          { "word": "Para tu", "translation": "for you" },
+          { "word": "Stopa!", "translation": "Stop!" },
+          { "word": "Sa la ka!", "translation": "How dare you!" }
+        ],
+        "vocabCompleted": true
+      },
+      "dialogue": {
+        "newDialogue": "Minions gathering to criticize Gru.",
+        "dialogueCompleted": true
+      }
+    },
+    "unitCompleted": false,
+    "completedDate": ""
+  },
+  {
+    "unit": 4,
+    "phase": "one",
+    "unitInfo": {
+      "grammar": {
+        "grammarTitle": "Using intentionally mispronounced words",
+        "grammarSummary": "Minions often mispronounce words in English, which are pronounced correctly in their language.",
+        "grammarCompleted": true
+      },
+      "vocab": {
+        "vocabSummary": [
+          { "word": "la salami", "translation": "Pig" },
+          { "word": "Bueno", "translation": "Good" },
+          { "word": "Bimyu", "translation": "Bad" },
+          { "word": "Buddies", "translation": "Friends" }
+        ],
+        "vocabCompleted": false
+      },
+      "dialogue": {
+        "newDialogue": "A conversation between Minions. desp 2 1:03:10",
+        "dialogueCompleted": false
+      }
+    },
+    "unitCompleted": false,
+    "completedDate": ""
+  },
+  {
+    "unit": 5,
+    "phase": "one",
+    "unitInfo": {
+      "grammar": {
+        "grammarTitle": "Using onomatopoeia to make sound effects throughout your speech",
+        "grammarSummary": "Onomatopoeias, or vocal imitations of real things, are used by Minions to symbolize objects or actions.",
+        "grammarCompleted": false
+      },
+      "vocab": {
+        "vocabSummary": [
+          { "word": "la plana", "translation": "the plane" },
+          { "word": "platou!", "translation": "fire! (eg. a weapon)" },
+          { "word": "bi-dou", "translation": "I'm sorry" },
+          { "word": "Luk at tu", "translation": "Look at you" }
+        ],
+        "vocabCompleted": false
+      },
+      "dialogue": {
+        "newDialogue": "The minions hear a call from Gru. minions 2 35:26",
+        "dialogueCompleted": false
+      }
+    },
+    "unitCompleted": false,
+    "completedDate": ""
+  },
+  {
+    "unit": 6,
+    "phase": "one",
+    "unitInfo": {
+      "grammar": {
+        "grammarTitle": "Use inflection and tone to convey meaning.",
+        "grammarSummary": "When communicating with others around you, showing as much emotion as possible will greatly help convey what you intend to say.",
+        "grammarCompleted": false
+      },
+      "vocab": {
+        "vocabSummary": [
+          { "word": "tulaliloo ti amo", "translation": "We love you" },
+          { "word": "terimakasi", "translation": "Thank you" },
+          { "word": "poulet tiki masala", "translation": "Open sesame" },
+          { "word": "et pis c'est tout", "translation": "That's all" }
+        ],
+        "vocabCompleted": false
+      },
+      "dialogue": {
+        "newDialogue": "A conversation between Minions. Minions 15:04",
+        "dialogueCompleted": false
+      }
+    },
+    "unitCompleted": false,
+    "completedDate": ""
+  }
+]
