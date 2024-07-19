@@ -17,7 +17,7 @@ const DrawerLayout = () => (
       headerLeft: () => (
         <Link href="/" style={{ paddingLeft: 16 }}>
           <WhiteText fontWeight="bold" fontSize={18}>
-            Minionese 
+            Minionese
           </WhiteText>
         </Link>
       ),
@@ -32,30 +32,13 @@ const DrawerLayout = () => (
       swipeEnabled: false,
     }}>
     <Drawer.Screen
-      name="index"
+      name="(index)"
       options={{
         headerTitle: '',
         headerTitleStyle: { color: 'white' },
         drawerLabelStyle: { color: 'white' },
         drawerLabel: 'Home',
         drawerIcon: ({ size, color }) => <Ionicons name="home-outline" size={size} color="white" />,
-      }}
-    />
-    <Drawer.Screen
-      name="(flashcards)"
-      options={{
-        headerTitle: 'Flashcards',
-        headerTitleStyle: { color: 'white' },
-        drawerLabelStyle: { color: 'white' },
-        drawerLabel: 'Flashcards',
-        drawerIcon: ({ size, color }) => (
-          <MaterialIcons name="border-bottom" size={size} color="white" />
-        ),
-        // headerRight: () => (
-        //   <Link href="/modal" asChild>
-        //     <HeaderButton />
-        //   </Link>
-        // ),
       }}
     />
   </Drawer>

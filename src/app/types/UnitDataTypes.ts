@@ -24,4 +24,4 @@ export type UnitCardProps = {
   };
   lessonCompleted: boolean;
   completedDate: string;
-}
+};

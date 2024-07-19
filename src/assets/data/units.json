@@ -41,11 +41,11 @@
           { "word": "Gelato", "translation": "ice cream" },
           { "word": "Hana, dul, sae", "translation": "-1, 2, 3" }
         ],
-        "vocabCompleted": true
+        "vocabCompleted": false
       },
       "dialogue": {
         "newDialogue": "Gru asks the minions to get Agnes a new unicorn toy.",
-        "dialogueCompleted": true
+        "dialogueCompleted": false
       }
     },
     "unitCompleted": false,

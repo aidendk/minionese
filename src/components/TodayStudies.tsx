@@ -5,6 +5,7 @@ import {
   FontAwesome5,
   MaterialCommunityIcons,
 } from '@expo/vector-icons';
+import { Stack, useRouter } from 'expo-router';
 import React, { useState } from 'react';
 import { Pressable } from 'react-native';
 import { Separator, XStack, View, YStack, Button } from 'tamagui';
@@ -38,6 +39,8 @@ const TodayStudies = () => {
       }
     }
   }
+
+  const router = useRouter();
 
   const studies = getUnit();
 
@@ -130,7 +133,10 @@ const TodayStudies = () => {
                     <Button
                       size="$2"
                       backgroundColor="#f63c7e"
-                      pressStyle={{ backgroundColor: '#ac2a58' }}>
+                      pressStyle={{ backgroundColor: '#ac2a58' }}
+                      onPress={() =>
+                        router.replace(`/(drawer)/(index)/(grammar)/${studies?.unit}`)
+                      }>
                       <WhiteText fontSize="$1">View Lesson {`->`}</WhiteText>
                     </Button>
                   </XStack>
@@ -211,7 +217,10 @@ const TodayStudies = () => {
                     <Button
                       size="$2"
                       backgroundColor="#f63c7e"
-                      pressStyle={{ backgroundColor: '#ac2a58' }}>
+                      pressStyle={{ backgroundColor: '#ac2a58' }}
+                      onPress={() =>
+                        router.replace(`(drawer)/(index)/(dialogue)/${studies?.unit}`)
+                      }>
                       <WhiteText fontSize="$1">View Dialogue {'->'}</WhiteText>
                     </Button>
                   </XStack>
