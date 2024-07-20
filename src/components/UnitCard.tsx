@@ -73,6 +73,7 @@ const UnitCard = ({ item }: { item: UnitCardProps }) => {
                 <WhiteText
                   fontSize="$4"
                   fontWeight="bold"
+                  maxWidth="$20"
                   onPress={() => router.replace(`(drawer)/(index)/(grammar)/${item.unit}`)}
                   color={item.unitInfo.grammar.grammarCompleted ? '#66cc91' : '#fff'}
                   pressStyle={{ color: '#f63c7e' }}>
@@ -93,6 +94,7 @@ const UnitCard = ({ item }: { item: UnitCardProps }) => {
               <WhiteText
                 fontSize="$4"
                 fontWeight="bold"
+                maxWidth="$20"
                 onPress={() => router.replace(`(drawer)/(index)/(dialogue)/${item.unit}`)}
                 color={item.unitInfo.dialogue.dialogueCompleted ? '#66cc91' : '#fff'}
                 pressStyle={{ color: '#f63c7e' }}>
