@@ -1,4 +1,6 @@
+import { Link, useRouter } from 'expo-router';
 import React from 'react';
+import { Pressable } from 'react-native';
 import { YStack, View, Text, XStack, Button } from 'tamagui';
 
 import { Container, WhiteText } from '~/tamagui.config';
@@ -6,6 +8,8 @@ import { Container, WhiteText } from '~/tamagui.config';
 // hard coded for now, could be updated when times / specific users added
 
 const StatsCard = () => {
+  const router = useRouter();
+
   return (
     <Container flex={1} rowGap="$4" mt={12} backgroundColor="#3a3a59" borderRadius="$5" mx={2}>
       <YStack alignItems="center">
@@ -47,11 +51,18 @@ const StatsCard = () => {
           </WhiteText>
         </View>
         <View py="$4" flexShrink={1} alignItems="center" rowGap="$2">
-          <Button size="$3" backgroundColor="#f63c7e" pressStyle={{ backgroundColor: '#ac2a58' }}>
+          {/* <Button
+            size="$3"
+            backgroundColor="#f63c7e"
+            pressStyle={{ backgroundColor: '#ac2a58' }}
+            > */}
+          <Link href="/(drawer)/(index)/StatsModal">
             <WhiteText fontWeight="bold" fontSize="$2">
               More Stats
             </WhiteText>
-          </Button>
+          </Link>
+
+          {/* </Button> */}
         </View>
       </YStack>
     </Container>

@@ -1,6 +1,6 @@
 import { Stack, useLocalSearchParams } from 'expo-router';
 import React from 'react';
-import { ScrollView, View, Text } from 'tamagui';
+import { ScrollView, View } from 'tamagui';
 
 import units from '../../../../assets/data/units.json';
 
@@ -16,7 +16,7 @@ const GrammarItem = () => {
       const item = id;
       if (item?.toString() !== unit.unit.toString()) {
         continue;
-      } else if (item.toString() == unit.unit.toString()) {
+      } else if (item.toString() === unit.unit.toString()) {
         return unit;
       }
     }
@@ -26,7 +26,7 @@ const GrammarItem = () => {
 
   return (
     <>
-      <Stack.Screen options={{}} />
+      <Stack.Screen options={{ gestureEnabled: false }} />
       <ScrollView backgroundColor="#2c2c44">
         <Container pt="$4" backgroundColor="#2c2c44" px="$3">
           <View>
