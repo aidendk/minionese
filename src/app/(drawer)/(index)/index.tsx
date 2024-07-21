@@ -17,7 +17,7 @@ const Home = () => {
     <>
       <Stack.Screen />
       <ScrollView backgroundColor="#2c2c44">
-        <Container pt="$8" backgroundColor="#2c2c44" px="$3">
+        <Container pt="$6" backgroundColor="#2c2c44" px="$3">
           <View rowGap="$1">
             <WhiteText color="#a6a6bf" fontWeight="bold">
               {new Date().toDateString()}

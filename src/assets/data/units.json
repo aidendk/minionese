@@ -58,7 +58,7 @@
       "grammar": {
         "grammarTitle": "Bringing in phrases from different languages",
         "grammarSummary": "Minionese is made up words and phrases from around the world, including Spanish, French, Korea, Japanese, Chinese, Italian, Hindi, and Indonesian.",
-        "grammarCompleted": true
+        "grammarCompleted": false
       },
       "vocab": {
         "vocabSummary": [
@@ -67,11 +67,11 @@
           { "word": "Stopa!", "translation": "Stop!" },
           { "word": "Sa la ka!", "translation": "How dare you!" }
         ],
-        "vocabCompleted": true
+        "vocabCompleted": false
       },
       "dialogue": {
         "newDialogue": "Minions gathering to criticize Gru.",
-        "dialogueCompleted": true
+        "dialogueCompleted": false
       }
     },
     "unitCompleted": false,
@@ -84,7 +84,7 @@
       "grammar": {
         "grammarTitle": "Using intentionally mispronounced words",
         "grammarSummary": "Minions often mispronounce words in English, which are pronounced correctly in their language.",
-        "grammarCompleted": true
+        "grammarCompleted": false
       },
       "vocab": {
         "vocabSummary": [

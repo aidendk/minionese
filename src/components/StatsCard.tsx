@@ -51,18 +51,13 @@ const StatsCard = () => {
           </WhiteText>
         </View>
         <View py="$4" flexShrink={1} alignItems="center" rowGap="$2">
-          {/* <Button
-            size="$3"
-            backgroundColor="#f63c7e"
-            pressStyle={{ backgroundColor: '#ac2a58' }}
-            > */}
-          <Link href="/(drawer)/(index)/StatsModal">
-            <WhiteText fontWeight="bold" fontSize="$2">
-              More Stats
-            </WhiteText>
+          <Link href="/(drawer)/(index)/StatsModal" asChild>
+            <Button size="$3" backgroundColor="#f63c7e" pressStyle={{ backgroundColor: '#ac2a58' }}>
+              <WhiteText fontWeight="bold" fontSize="$2">
+                More Stats
+              </WhiteText>
+            </Button>
           </Link>
-
-          {/* </Button> */}
         </View>
       </YStack>
     </Container>
