@@ -4,25 +4,13 @@ import { Button, ScrollView, View } from 'tamagui';
 
 import units from '../../../../assets/data/units.json';
 
+import { getUnitById } from '~/src/assets/data/currentUnit';
 import { Container, WhiteText } from '~/tamagui.config';
 
 const GrammarItem = () => {
   const { id } = useLocalSearchParams();
 
-  function getUnit() {
-    const json = units;
-    for (let i = 0; i < json.length; i++) {
-      const unit = json[i];
-      const item = id;
-      if (item?.toString() !== unit.unit.toString()) {
-        continue;
-      } else if (item.toString() === unit.unit.toString()) {
-        return unit;
-      }
-    }
-  }
-
-  const studies = getUnit();
+  const studies = getUnitById(id?.toString());
 
   return (
     <>

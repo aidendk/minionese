@@ -8,8 +8,6 @@ import { Container, WhiteText } from '~/tamagui.config';
 // hard coded for now, could be updated when times / specific users added
 
 const StatsCard = () => {
-  const router = useRouter();
-
   return (
     <Container flex={1} rowGap="$4" mt={12} backgroundColor="#3a3a59" borderRadius="$5" mx={2}>
       <YStack alignItems="center">

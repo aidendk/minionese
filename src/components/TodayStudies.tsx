@@ -1,16 +1,10 @@
-import {
-  AntDesign,
-  Entypo,
-  FontAwesome,
-  FontAwesome5,
-  MaterialCommunityIcons,
-} from '@expo/vector-icons';
-import { Stack, useRouter } from 'expo-router';
+import { AntDesign, Entypo, FontAwesome5, MaterialCommunityIcons } from '@expo/vector-icons';
+import { Link } from 'expo-router';
 import React, { useState } from 'react';
 import { Pressable } from 'react-native';
 import { Separator, XStack, View, YStack, Button } from 'tamagui';
 
-import units from '../assets/data/units.json';
+import { getCurrentUnit } from '../assets/data/currentUnit';
 
 import { Container, WhiteText } from '~/tamagui.config';
 
@@ -28,21 +22,7 @@ const TodayStudies = () => {
 
   // parses the json file for units, returns the first unit that sequentially has the "unitCompleted" value as false
 
-  function getUnit() {
-    const json = units;
-    for (let i = 0; i < json.length; i++) {
-      const unit = json[i];
-      if (unit.unitCompleted) {
-        continue;
-      } else if (!unit.unitCompleted) {
-        return unit;
-      }
-    }
-  }
-
-  const router = useRouter();
-
-  const studies = getUnit();
+  const studies = getCurrentUnit();
 
   // edge case - what if all units are done?
 
@@ -130,15 +110,14 @@ const TodayStudies = () => {
               <XStack>
                 <YStack flex={1}>
                   <XStack pt="$2" pb="$3" alignSelf="flex-end">
-                    <Button
-                      size="$2"
-                      backgroundColor="#f63c7e"
-                      pressStyle={{ backgroundColor: '#ac2a58' }}
-                      onPress={() =>
-                        router.replace(`/(drawer)/(index)/(grammar)/${studies?.unit}`)
-                      }>
-                      <WhiteText fontSize="$1">View Lesson {`->`}</WhiteText>
-                    </Button>
+                    <Link href={`/(drawer)/(index)/(grammar)/${studies?.unit}`} asChild>
+                      <Button
+                        size="$2"
+                        backgroundColor="#f63c7e"
+                        pressStyle={{ backgroundColor: '#ac2a58' }}>
+                        <WhiteText fontSize="$1">View Lesson {`->`}</WhiteText>
+                      </Button>
+                    </Link>
                   </XStack>
                   <Separator borderColor="gray" borderWidth={1} />
                 </YStack>
@@ -214,15 +193,14 @@ const TodayStudies = () => {
               <XStack>
                 <YStack flex={1}>
                   <XStack py="$3">
-                    <Button
-                      size="$2"
-                      backgroundColor="#f63c7e"
-                      pressStyle={{ backgroundColor: '#ac2a58' }}
-                      onPress={() =>
-                        router.replace(`(drawer)/(index)/(dialogue)/${studies?.unit}`)
-                      }>
-                      <WhiteText fontSize="$1">View Dialogue {'->'}</WhiteText>
-                    </Button>
+                    <Link href={`/(drawer)/(index)/(dialogue)/${studies?.unit}`} asChild>
+                      <Button
+                        size="$2"
+                        backgroundColor="#f63c7e"
+                        pressStyle={{ backgroundColor: '#ac2a58' }}>
+                        <WhiteText fontSize="$1">View Dialogue {'->'}</WhiteText>
+                      </Button>
+                    </Link>
                   </XStack>
                   <Separator borderColor="gray" borderWidth={1} />
                 </YStack>

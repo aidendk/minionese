@@ -8,6 +8,7 @@ export type UnitCardProps = {
     grammar: {
       grammarTitle: string;
       grammarSummary: string;
+      grammarData: string;
       grammarCompleted: boolean;
     };
     vocab: {
@@ -19,6 +20,11 @@ export type UnitCardProps = {
     };
     dialogue: {
       newDialogue: string;
+      dialogueData: {
+        speaker: string;
+        sentence: string;
+        translation: string;
+      };
       dialogueCompleted: boolean;
     };
   };

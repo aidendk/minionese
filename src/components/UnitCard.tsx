@@ -1,5 +1,5 @@
 import { Entypo, MaterialCommunityIcons } from '@expo/vector-icons';
-import { Link, useRouter } from 'expo-router';
+import { Link } from 'expo-router';
 import React, { useState } from 'react';
 import { Pressable } from 'react-native';
 import { Text, View, XStack, YStack, Separator } from 'tamagui';
@@ -10,8 +10,6 @@ import { WhiteText } from '~/tamagui.config';
 const UnitCard = ({ item }: { item: UnitCardProps }) => {
   // state that checks if card is expanded or not, if expanded will show the grammar lesson title (both if two grammar lessons for that unit) and the dialogue title
   const [cardOpen, setCardOpen] = useState(false);
-
-  const router = useRouter();
 
   const SmallDivider = () => {
     return (
@@ -70,15 +68,16 @@ const UnitCard = ({ item }: { item: UnitCardProps }) => {
                 color={item.unitInfo.grammar.grammarCompleted ? '#66cc91' : '#9d87b5'}
               />
               <YStack flex={1}>
-                <WhiteText
-                  fontSize="$4"
-                  fontWeight="bold"
-                  maxWidth="$20"
-                  onPress={() => router.replace(`(drawer)/(index)/(grammar)/${item.unit}`)}
-                  color={item.unitInfo.grammar.grammarCompleted ? '#66cc91' : '#fff'}
-                  pressStyle={{ color: '#f63c7e' }}>
-                  {item.unitInfo.grammar.grammarTitle}
-                </WhiteText>
+                <Link href={`/(drawer)/(index)/(grammar)/${item.unit}`} asChild>
+                  <WhiteText
+                    fontSize="$4"
+                    fontWeight="bold"
+                    maxWidth="$20"
+                    color={item.unitInfo.grammar.grammarCompleted ? '#66cc91' : '#fff'}
+                    pressStyle={{ color: '#f63c7e' }}>
+                    {item.unitInfo.grammar.grammarTitle}
+                  </WhiteText>
+                </Link>
               </YStack>
             </XStack>
           </Pressable>
@@ -91,15 +90,17 @@ const UnitCard = ({ item }: { item: UnitCardProps }) => {
                 size={24}
                 color={item.unitInfo.dialogue.dialogueCompleted ? '#66cc91' : '#9d87b5'}
               />
-              <WhiteText
-                fontSize="$4"
-                fontWeight="bold"
-                maxWidth="$20"
-                onPress={() => router.replace(`(drawer)/(index)/(dialogue)/${item.unit}`)}
-                color={item.unitInfo.dialogue.dialogueCompleted ? '#66cc91' : '#fff'}
-                pressStyle={{ color: '#f63c7e' }}>
-                {item.unitInfo.dialogue.newDialogue}
-              </WhiteText>
+
+              <Link href={`/(drawer)/(index)/(dialogue)/${item.unit}`} asChild>
+                <WhiteText
+                  fontSize="$4"
+                  fontWeight="bold"
+                  maxWidth="$20"
+                  color={item.unitInfo.dialogue.dialogueCompleted ? '#66cc91' : '#fff'}
+                  pressStyle={{ color: '#f63c7e' }}>
+                  {item.unitInfo.dialogue.newDialogue}
+                </WhiteText>
+              </Link>
             </XStack>
           </Pressable>
         </YStack>

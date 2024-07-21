@@ -1,4 +1,4 @@
-import { Stack } from 'expo-router';
+import { Link, Stack } from 'expo-router';
 import { Separator, Button, View, ScrollView } from 'tamagui';
 
 import Activity from '../../../components/Activity';
@@ -8,11 +8,14 @@ import MyPath from '../../../components/MyPath';
 import StatsCard from '../../../components/StatsCard';
 import TodayStudies from '../../../components/TodayStudies';
 
+import { getCurrentUnit } from '~/src/assets/data/currentUnit';
 import { Container, WhiteText } from '~/tamagui.config';
 
 // home screen, this is where all components are put together to display full page content
 
 const Home = () => {
+  const studies = getCurrentUnit();
+
   return (
     <>
       <Stack.Screen />
@@ -27,11 +30,18 @@ const Home = () => {
             </WhiteText>
           </View>
           <View mt="$3">
-            <Button size="$3" backgroundColor="#f63c7e" pressStyle={{ backgroundColor: '#ac2a58' }}>
-              <WhiteText fontWeight="bold" fontSize="$2">
-                Study Now
-              </WhiteText>
-            </Button>
+            <Link
+              href={`${studies?.unitInfo.grammar.grammarCompleted ? (studies?.unitInfo.dialogue.dialogueCompleted ? '' : `/(drawer)/(index)/(dialogue)/${studies?.unit}`) : `/(drawer)/(index)/(grammar)/${studies?.unit}`}`}
+              asChild>
+              <Button
+                size="$3"
+                backgroundColor="#f63c7e"
+                pressStyle={{ backgroundColor: '#ac2a58' }}>
+                <WhiteText fontWeight="bold" fontSize="$2">
+                  Study Now
+                </WhiteText>
+              </Button>
+            </Link>
           </View>
           <Separator borderColor="gray" borderRadius="$1" marginVertical={15} />
 
