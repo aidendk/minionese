@@ -6,6 +6,7 @@
       "grammar": {
         "grammarTitle": "An introduction to Minionese.",
         "grammarSummary": "Minionese is a fictional language made up of a bunch of funny or interesting-sounding words from different languages.",
+        "grammarData": "",
         "grammarCompleted": true
       },
       "vocab": {
@@ -19,6 +20,11 @@
       },
       "dialogue": {
         "newDialogue": "Minions conversing with each other.",
+        "dialogueData": [
+          { "speaker": "gru", "sentence": "1", "translation": "4" },
+          { "speaker": "minion 1", "sentence": "2", "translation": "5" },
+          { "speaker": "minion 2", "sentence": "3", "translation": "6" }
+        ],
         "dialogueCompleted": true
       }
     },
@@ -32,6 +38,7 @@
       "grammar": {
         "grammarTitle": "Learning the rules of Minionese",
         "grammarSummary": "A part of Minion language is made up of gibberish- Minions often combine simple consonant-vowel syllables to create their silly speech.",
+        "grammarData": "",
         "grammarCompleted": true
       },
       "vocab": {
@@ -45,6 +52,11 @@
       },
       "dialogue": {
         "newDialogue": "Gru asks the minions to get Agnes a new unicorn toy.",
+        "dialogueData": [
+          { "speaker": "gru", "sentence": "2", "translation": "9" },
+          { "speaker": "gru", "sentence": "4", "translation": "12" },
+          { "speaker": "gru", "sentence": "6", "translation": "3" }
+        ],
         "dialogueCompleted": false
       }
     },
@@ -58,6 +70,7 @@
       "grammar": {
         "grammarTitle": "Bringing in phrases from different languages",
         "grammarSummary": "Minionese is made up words and phrases from around the world, including Spanish, French, Korea, Japanese, Chinese, Italian, Hindi, and Indonesian.",
+        "grammarData": "",
         "grammarCompleted": false
       },
       "vocab": {
@@ -71,6 +84,11 @@
       },
       "dialogue": {
         "newDialogue": "Minions gathering to criticize Gru.",
+        "dialogueData": [
+          { "speaker": "gru", "sentence": "", "translation": "" },
+          { "speaker": "gru", "sentence": "", "translation": "" },
+          { "speaker": "gru", "sentence": "", "translation": "" }
+        ],
         "dialogueCompleted": false
       }
     },
@@ -84,6 +102,7 @@
       "grammar": {
         "grammarTitle": "Using intentionally mispronounced words",
         "grammarSummary": "Minions often mispronounce words in English, which are pronounced correctly in their language.",
+        "grammarData": "",
         "grammarCompleted": false
       },
       "vocab": {
@@ -97,6 +116,11 @@
       },
       "dialogue": {
         "newDialogue": "A conversation between Minions. desp 2 1:03:10",
+        "dialogueData": [
+          { "speaker": "gru", "sentence": "", "translation": "" },
+          { "speaker": "gru", "sentence": "", "translation": "" },
+          { "speaker": "gru", "sentence": "", "translation": "" }
+        ],
         "dialogueCompleted": false
       }
     },
@@ -110,6 +134,7 @@
       "grammar": {
         "grammarTitle": "Using onomatopoeia to make sound effects throughout your speech",
         "grammarSummary": "Onomatopoeias, or vocal imitations of real things, are used by Minions to symbolize objects or actions.",
+        "grammarData": "",
         "grammarCompleted": false
       },
       "vocab": {
@@ -123,6 +148,11 @@
       },
       "dialogue": {
         "newDialogue": "The minions hear a call from Gru. minions 2 35:26",
+        "dialogueData": [
+          { "speaker": "gru", "sentence": "", "translation": "" },
+          { "speaker": "gru", "sentence": "", "translation": "" },
+          { "speaker": "gru", "sentence": "", "translation": "" }
+        ],
         "dialogueCompleted": false
       }
     },
@@ -136,6 +166,7 @@
       "grammar": {
         "grammarTitle": "Using inflection and tone to convey meaning",
         "grammarSummary": "When communicating with others around you, showing as much emotion as possible will greatly help convey what you intend to say.",
+        "grammarData": "",
         "grammarCompleted": false
       },
       "vocab": {
@@ -149,6 +180,11 @@
       },
       "dialogue": {
         "newDialogue": "A conversation between Minions. Minions 15:04",
+        "dialogueData": [
+          { "speaker": "gru", "sentence": "", "translation": "" },
+          { "speaker": "gru", "sentence": "", "translation": "" },
+          { "speaker": "gru", "sentence": "", "translation": "" }
+        ],
         "dialogueCompleted": false
       }
     },
