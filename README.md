@@ -4,7 +4,7 @@ Hey! thanks for checking out this project :) I'm building this as a fun way to i
 
 This project is built using TypeScript with Expo and React Native, along with Tamagui for styling.
 
-This is still a work in progress and I'm still deciding what I want to do this project- Eventually I may attempt connecting it to a backend like MongoDB Realm, or experimenting with self-hosting a backend server to learn how to do that. Some buttons currently have no functionality, while others will lead to other pages / modals (ex. "More Stats" button opens up a modal, and each unit has separate pages for Grammar and Dialogue, but the "Extra Credit" and "Activity" sections currently have no functionality).
+This is still a work in progress and I'm still deciding what I want to do this project- Eventually I may attempt connecting it to a backend like MongoDB Realm, or experiment with self-hosting a backend server to learn how to do that. Some buttons currently have no functionality, while others will lead to other pages / modals (ex. "More Stats" button opens up a modal, and each unit has separate pages for Grammar and Dialogue, but the "Extra Credit" and "Activity" sections currently have no functionality).
 
 <h2>Installation Instructions</h2>
 
