@@ -1,5 +1,5 @@
 import { useFonts } from 'expo-font';
-import { Stack, SplashScreen, Slot } from 'expo-router';
+import { SplashScreen, Slot } from 'expo-router';
 import React, { useEffect } from 'react';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { TamaguiProvider, Theme } from 'tamagui';

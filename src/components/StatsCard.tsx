@@ -1,11 +1,10 @@
-import { Link, useRouter } from 'expo-router';
+import { Link } from 'expo-router';
 import React from 'react';
-import { Pressable } from 'react-native';
 import { YStack, View, Text, XStack, Button } from 'tamagui';
 
 import { Container, WhiteText } from '~/tamagui.config';
 
-// hard coded for now, could be updated when times / specific users added
+// Hard coded for now, could be updated when times / specific users added (would require backend)
 
 const StatsCard = () => {
   return (

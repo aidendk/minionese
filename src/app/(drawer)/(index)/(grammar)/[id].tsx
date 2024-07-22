@@ -2,14 +2,15 @@ import { Link, Stack, useLocalSearchParams } from 'expo-router';
 import React from 'react';
 import { Button, ScrollView, View } from 'tamagui';
 
-import units from '../../../../assets/data/units.json';
-
 import { getUnitById } from '~/src/assets/data/currentUnit';
 import { Container, WhiteText } from '~/tamagui.config';
 
 const GrammarItem = () => {
+  // this looks for the id of this page
   const { id } = useLocalSearchParams();
 
+  // this compares the id of the page to the unit number.
+  // if the id and unit number match, then the data for that unit is returned.
   const studies = getUnitById(id?.toString());
 
   return (
@@ -24,9 +25,9 @@ const GrammarItem = () => {
           </View>
         </Container>
         <Container backgroundColor="#3a3a58" mx="$4">
-          <View>
-            <WhiteText>{studies?.unitInfo.grammar.grammarData}</WhiteText>
-          </View>
+          <WhiteText letterSpacing="$2" fontSize="$5">
+            {studies?.unitInfo.grammar.grammarData}
+          </WhiteText>
         </Container>
         <Container flexDirection="row" justifyContent="space-evenly">
           <Link href="" asChild>

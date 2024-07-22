@@ -30,6 +30,7 @@ const Home = () => {
             </WhiteText>
           </View>
           <View mt="$3">
+            {/* This redirects to the [id].tsx for grammar if it isn't completed, then dialogue if dialogue isn't completed. It will not link to anything if both are completed. It uses the current unit as a href marker*/}
             <Link
               href={`${studies?.unitInfo.grammar.grammarCompleted ? (studies?.unitInfo.dialogue.dialogueCompleted ? '' : `/(drawer)/(index)/(dialogue)/${studies?.unit}`) : `/(drawer)/(index)/(grammar)/${studies?.unit}`}`}
               asChild>

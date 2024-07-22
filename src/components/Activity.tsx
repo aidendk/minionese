@@ -3,9 +3,7 @@ import { XStack, YStack, View, Separator, ScrollView } from 'tamagui';
 
 import { Container, WhiteText } from '~/tamagui.config';
 
-// TODO: Once data files are created, create a flatList component or some sort
-// of mapping component so we only have this huge mess of code once and can input
-// new data for each one
+// Static for now
 
 const Activity = () => {
   return (

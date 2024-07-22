@@ -1,7 +1,4 @@
-import { Link, Stack, router } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { Platform } from 'react-native';
 import { View, Text, ScrollView, XStack } from 'tamagui';
 
 import { Container, WhiteText } from '~/tamagui.config';

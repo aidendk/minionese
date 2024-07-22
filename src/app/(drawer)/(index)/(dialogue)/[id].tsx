@@ -1,17 +1,19 @@
 import { Link, Stack, useLocalSearchParams } from 'expo-router';
 import React, { useState } from 'react';
-import { ScrollView, View, Text, YStack, Button, XStack } from 'tamagui';
-
-import units from '../../../../assets/data/units.json';
+import { ScrollView, View, YStack, Button } from 'tamagui';
 
 import { getUnitById } from '~/src/assets/data/currentUnit';
 import { Container, WhiteText } from '~/tamagui.config';
 
 const DialogueItem = () => {
+  // show / hide translations
   const [showTranslation, setShowTranslation] = useState(false);
 
+  // this looks for the id of this page
   const { id } = useLocalSearchParams();
 
+  // this compares the id of the page to the unit number.
+  // if the id and unit number match, then the data for that unit is returned.
   const studies = getUnitById(id?.toString());
   return (
     <>

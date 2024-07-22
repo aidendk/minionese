@@ -110,6 +110,7 @@ const TodayStudies = () => {
               <XStack>
                 <YStack flex={1}>
                   <XStack pt="$2" pb="$3" alignSelf="flex-end">
+                    {/* This redirects to the [id].tsx for grammar and uses the current unit as a href marker*/}
                     <Link href={`/(drawer)/(index)/(grammar)/${studies?.unit}`} asChild>
                       <Button
                         size="$2"
@@ -193,6 +194,7 @@ const TodayStudies = () => {
               <XStack>
                 <YStack flex={1}>
                   <XStack py="$3">
+                    {/* This redirects to the [id].tsx for dialogue and uses the current unit as a href marker*/}
                     <Link href={`/(drawer)/(index)/(dialogue)/${studies?.unit}`} asChild>
                       <Button
                         size="$2"

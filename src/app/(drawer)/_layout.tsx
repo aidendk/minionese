@@ -1,9 +1,8 @@
-import { Ionicons, MaterialIcons, AntDesign } from '@expo/vector-icons';
+import { Ionicons, AntDesign } from '@expo/vector-icons';
 import { DrawerToggleButton } from '@react-navigation/drawer';
 import { Link } from 'expo-router';
 import { Drawer } from 'expo-router/drawer';
-import { Pressable } from 'react-native';
-import { Button, View, XStack } from 'tamagui';
+import { Button, XStack } from 'tamagui';
 
 import { WhiteText } from '~/tamagui.config';
 
@@ -38,7 +37,7 @@ const DrawerLayout = () => (
         headerTitleStyle: { color: 'white' },
         drawerLabelStyle: { color: 'white' },
         drawerLabel: 'Home',
-        drawerIcon: ({ size, color }) => <Ionicons name="home-outline" size={size} color="white" />,
+        drawerIcon: ({ size }) => <Ionicons name="home-outline" size={size} color="white" />,
       }}
     />
   </Drawer>

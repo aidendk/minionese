@@ -8,7 +8,7 @@ import { UnitCardProps } from '~/src/app/types/UnitDataTypes';
 import { WhiteText } from '~/tamagui.config';
 
 const UnitCard = ({ item }: { item: UnitCardProps }) => {
-  // state that checks if card is expanded or not, if expanded will show the grammar lesson title (both if two grammar lessons for that unit) and the dialogue title
+  // state that checks if card is expanded or not, if expanded will show the grammar lesson title and the dialogue title
   const [cardOpen, setCardOpen] = useState(false);
 
   const SmallDivider = () => {
@@ -68,6 +68,7 @@ const UnitCard = ({ item }: { item: UnitCardProps }) => {
                 color={item.unitInfo.grammar.grammarCompleted ? '#66cc91' : '#9d87b5'}
               />
               <YStack flex={1}>
+                {/* This redirects to the [id].tsx for grammar and uses the current unit as a href marker*/}
                 <Link href={`/(drawer)/(index)/(grammar)/${item.unit}`} asChild>
                   <WhiteText
                     fontSize="$4"
@@ -91,6 +92,7 @@ const UnitCard = ({ item }: { item: UnitCardProps }) => {
                 color={item.unitInfo.dialogue.dialogueCompleted ? '#66cc91' : '#9d87b5'}
               />
 
+              {/* This redirects to the [id].tsx for dialogue and uses the current unit as a href marker*/}
               <Link href={`/(drawer)/(index)/(dialogue)/${item.unit}`} asChild>
                 <WhiteText
                   fontSize="$4"

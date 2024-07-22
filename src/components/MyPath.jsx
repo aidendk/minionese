@@ -5,7 +5,7 @@ import { YStack } from 'tamagui';
 import UnitCard from './UnitCard';
 import units from '../assets/data/units.json';
 
-// maps each unit following structure in UnitCard.tsx
+// Maps each unit following structure in UnitCard.tsx
 
 const MyPath = () => {
   return (

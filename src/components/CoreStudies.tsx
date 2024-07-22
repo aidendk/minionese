@@ -3,8 +3,6 @@ import { XStack, YStack, Text } from 'tamagui';
 
 import { Container, WhiteText } from '~/tamagui.config';
 
-// hard coded for now, but can eventually change to update when unitCompleted is true and unit is completed on same day as current date
-
 const CoreStudies = () => {
   return (
     <Container

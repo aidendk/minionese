@@ -6,7 +6,7 @@
       "grammar": {
         "grammarTitle": "An introduction to Minionese.",
         "grammarSummary": "Minionese is a fictional language made up of a bunch of funny or interesting-sounding words from different languages.",
-        "grammarData": "",
+        "grammarData": "Minionese is a fictional language made up of a bunch of funny or interesting-sounding words from all different languages. Say names in English and other words and phrases in different languages such as French, Spanish, Korean, Japanese, or Italian. Use a voice changer to make your voice higher in pitch to match the Minions’ speech. (src. WikiHow)",
         "grammarCompleted": true
       },
       "vocab": {
@@ -19,17 +19,41 @@
         "vocabCompleted": true
       },
       "dialogue": {
-        "newDialogue": "Minions conversing with each other.",
+        "newDialogue": "The minions decide to stop working for Gru. (Despicable Me 3)",
         "dialogueData": [
-          { "speaker": "gru", "sentence": "1", "translation": "4" },
-          { "speaker": "minion 1", "sentence": "2", "translation": "5" },
-          { "speaker": "minion 2", "sentence": "3", "translation": "6" }
+          { "speaker": "Gru", "sentence": "We're not going back to villainy.", "translation": "" },
+          { "speaker": "Mel", "sentence": "No vilani?", "translation": "No villainy?" },
+          {
+            "speaker": "Gru",
+            "sentence": "And I don't want to hear another word about it.",
+            "translation": ""
+          },
+          { "speaker": "Minions", "sentence": "Pfffffttt!", "translation": "Whatever!" },
+          {
+            "speaker": "Gru",
+            "sentence": "Look. If you guys don't stop right now, there will be consequences.",
+            "translation": ""
+          },
+          {
+            "speaker": "Mel",
+            "sentence": "Huh? Politences mi molo.",
+            "translation": "Huh? Consequences my ass."
+          },
+          {
+            "speaker": "Gru",
+            "sentence": "Hey. Don't say something you're going to regret.",
+            "translation": ""
+          },
+          {
+            "speaker": "Mel",
+            "sentence": "Ohh.. Nu lepamos- El la quitas. Hmph. Ciao bello.",
+            "translation": "Ohh, it's too late- I quit. Hmph. See you later."
+          }
         ],
         "dialogueCompleted": true
       }
     },
-    "unitCompleted": true,
-    "completedDate": ""
+    "unitCompleted": true
   },
   {
     "unit": 2,
@@ -38,7 +62,7 @@
       "grammar": {
         "grammarTitle": "Learning the rules of Minionese",
         "grammarSummary": "A part of Minion language is made up of gibberish- Minions often combine simple consonant-vowel syllables to create their silly speech.",
-        "grammarData": "",
+        "grammarData": "A part of the Minion language is made up of gibberish—Minions often combine simple consonant-vowel syllables to create their silly speech. These syllables create a funny rhythm throughout the Minion language. Minionese also uses a lot of “B” and “P” sounds, which are some of the first consonants that babies learn. (src. WikiHow)",
         "grammarCompleted": true
       },
       "vocab": {
@@ -51,17 +75,37 @@
         "vocabCompleted": false
       },
       "dialogue": {
-        "newDialogue": "Gru asks the minions to get Agnes a new unicorn toy.",
+        "newDialogue": "Gru asks the minions to get Agnes a new unicorn toy. (Despicable Me)",
         "dialogueData": [
-          { "speaker": "gru", "sentence": "2", "translation": "9" },
-          { "speaker": "gru", "sentence": "4", "translation": "12" },
-          { "speaker": "gru", "sentence": "6", "translation": "3" }
+          { "speaker": "Gru", "sentence": "Tim, Mark, Phil!", "translation": "" },
+          {
+            "speaker": "Gru",
+            "sentence": "This is very important, you have to get the little girl a new unicorn toy.",
+            "translation": ""
+          },
+          {
+            "speaker": "Minion 2",
+            "sentence": "Eh? Bapoi? Pakarana bapoi.",
+            "translation": "Huh, a bapoi? What's a bapoi."
+          },
+          {
+            "speaker": "Minion 1",
+            "sentence": "No no no no no, papoi.",
+            "translation": "No no no no no, a toy."
+          },
+          { "speaker": "Minion 2", "sentence": "Ahh, papoi!", "translation": "Ah, a toy!" },
+          { "speaker": "Gru", "sentence": "Hey, hey, hey, a toy!", "translation": "" },
+          {
+            "speaker": "Minion 2",
+            "sentence": "Da da da papoi. Pfft.",
+            "translation": "Yeah yeah yeah, a toy. Whatever."
+          },
+          { "speaker": "Gru", "sentence": "Go. And hurry!", "translation": "" }
         ],
         "dialogueCompleted": false
       }
     },
-    "unitCompleted": false,
-    "completedDate": ""
+    "unitCompleted": false
   },
   {
     "unit": 3,
@@ -70,7 +114,7 @@
       "grammar": {
         "grammarTitle": "Bringing in phrases from different languages",
         "grammarSummary": "Minionese is made up words and phrases from around the world, including Spanish, French, Korea, Japanese, Chinese, Italian, Hindi, and Indonesian.",
-        "grammarData": "",
+        "grammarData": "Minionese is also made up of a ton of words and phrases from languages around the world, including (but not limited to) Spanish, French, Korean, Japanese, Chinese, Hindi, Indonesian, and Italian. Throw in some phrases in other languages (they don’t have to actually mean what you’re trying to say) to speak how a Minion does. Using other languages in Minion speech allows people around the world to relate to these funny yellow creatures.The Minions tend to say the names of non-Minions in English. They also will repeat phrases in English. For example, when Margo suggested ordering a pizza with stuffed crust, the other two girls and one of the Minions said “ooo, stuffed crust.” (src. WikiHow)",
         "grammarCompleted": false
       },
       "vocab": {
@@ -83,17 +127,32 @@
         "vocabCompleted": false
       },
       "dialogue": {
-        "newDialogue": "Minions gathering to criticize Gru.",
+        "newDialogue": "Minions gathering to criticize Gru. (Despicable Me 3)",
         "dialogueData": [
-          { "speaker": "gru", "sentence": "", "translation": "" },
-          { "speaker": "gru", "sentence": "", "translation": "" },
-          { "speaker": "gru", "sentence": "", "translation": "" }
+          { "speaker": "Gru", "sentence": "But life of crime is over.", "translation": "" },
+          {
+            "speaker": "Gru",
+            "sentence": "Mel! You're with me on this, right?",
+            "translation": ""
+          },
+          {
+            "speaker": "Mel",
+            "sentence": "Ahh, pfft. Lookah.",
+            "translation": "Ah, whatever. Look at this."
+          },
+          { "speaker": "Mel", "sentence": "Bueno?", "translation": "Good?" },
+          { "speaker": "Minions", "sentence": "Yay!", "translation": "Yay!" },
+          { "speaker": "Mel", "sentence": "Binyu!", "translation": "Bad!" },
+          { "speaker": "Minions", "sentence": "Boo...", "translation": "Boo.." },
+          { "speaker": "Mel", "sentence": "Bueno?", "translation": "Good?" },
+          { "speaker": "Minions", "sentence": "Yay!", "translation": "Yay!" },
+          { "speaker": "Mel", "sentence": "Binyu!", "translation": "Bad!" },
+          { "speaker": "Minions", "sentence": "Boo...", "translation": "Boo.." }
         ],
         "dialogueCompleted": false
       }
     },
-    "unitCompleted": false,
-    "completedDate": ""
+    "unitCompleted": false
   },
   {
     "unit": 4,
@@ -102,7 +161,7 @@
       "grammar": {
         "grammarTitle": "Using intentionally mispronounced words",
         "grammarSummary": "Minions often mispronounce words in English, which are pronounced correctly in their language.",
-        "grammarData": "",
+        "grammarData": "The Minions often mispronounce words in English, which are pronounced correctly in their language. When using words in English in your Minionese, it can sound more authentic to “mess up” a couple of the words on purpose. Here are some real examples of mispronunciations made by the Minions: “Bello!” (Hello!), “Poopaye!” (Goodbye), “Baboi” (Toy), “Bapple” (Apple), “Buttom” (Bottom) (src. WikiHow)",
         "grammarCompleted": false
       },
       "vocab": {
@@ -115,17 +174,20 @@
         "vocabCompleted": false
       },
       "dialogue": {
-        "newDialogue": "A conversation between Minions. desp 2 1:03:10",
+        "newDialogue": "A conversation between Minions. (Despicable Me 2)",
         "dialogueData": [
-          { "speaker": "gru", "sentence": "", "translation": "" },
-          { "speaker": "gru", "sentence": "", "translation": "" },
-          { "speaker": "gru", "sentence": "", "translation": "" }
+          { "speaker": "Tom", "sentence": "Kevin?", "translation": "Kevin?" },
+          {
+            "speaker": "Kevin",
+            "sentence": "Hmm? Tom? Bello! Ton de aqui. Kampai!",
+            "translation": "Huh? Tom? Hey! How's it going. Cheers!"
+          },
+          { "speaker": "Tom", "sentence": "Kampai!", "translation": "Cheers!" }
         ],
         "dialogueCompleted": false
       }
     },
-    "unitCompleted": false,
-    "completedDate": ""
+    "unitCompleted": false
   },
   {
     "unit": 5,
@@ -134,7 +196,7 @@
       "grammar": {
         "grammarTitle": "Using onomatopoeia to make sound effects throughout your speech",
         "grammarSummary": "Onomatopoeias, or vocal imitations of real things, are used by Minions to symbolize objects or actions.",
-        "grammarData": "",
+        "grammarData": "Onomatopoeias, or vocal imitations of real things, are used by the Minions to symbolize objects or actions. Here are a couple that Minions use in the movies: “Bee doo bee doo bee doo!” (The sound of a firetruck, means “fire”), “Muak! Muak! Muak!” (The sound of kissing, means “kiss”), “Pop!” (The sound of a balloon popping) (src. WikiHow)",
         "grammarCompleted": false
       },
       "vocab": {
@@ -147,17 +209,35 @@
         "vocabCompleted": false
       },
       "dialogue": {
-        "newDialogue": "The minions hear a call from Gru. minions 2 35:26",
+        "newDialogue": "The minions hear a call from Gru. (Minions 2)",
         "dialogueData": [
-          { "speaker": "gru", "sentence": "", "translation": "" },
-          { "speaker": "gru", "sentence": "", "translation": "" },
-          { "speaker": "gru", "sentence": "", "translation": "" }
+          {
+            "speaker": "Kevin",
+            "sentence": "Shh shh, escuha. La telephono. Se le Gru, Le gru!",
+            "translation": "Shh shh, listen. The telephone! It's Gru, Gru's calling!"
+          },
+          {
+            "speaker": "Kevin",
+            "sentence": "Bello. La casa de mini boss.",
+            "translation": "Hello, this is the house of the mini boss."
+          },
+          { "speaker": "Wild Knuckles", "sentence": "Who is this?", "translation": "" },
+          {
+            "speaker": "Kevin",
+            "sentence": "Kevin. Ehh, Kevin le minion.",
+            "translation": "Kevin. Uhh, Kevin the minion."
+          },
+          { "speaker": "Wild Knuckles", "sentence": "Kevin le what?", "translation": "" },
+          {
+            "speaker": "Kevin",
+            "sentence": "Le minion. Ugh...",
+            "translation": "The minion. Ugh..."
+          }
         ],
         "dialogueCompleted": false
       }
     },
-    "unitCompleted": false,
-    "completedDate": ""
+    "unitCompleted": false
   },
   {
     "unit": 6,
@@ -166,7 +246,7 @@
       "grammar": {
         "grammarTitle": "Using inflection and tone to convey meaning",
         "grammarSummary": "When communicating with others around you, showing as much emotion as possible will greatly help convey what you intend to say.",
-        "grammarData": "",
+        "grammarData": "The best part about Minionese is that all you have to do to communicate with others around you is to show as much emotion as possible. Laugh, scream, make little noises like “ooo” or “ahh,” and use hand gestures and different vocal intonations to get your point across. The natural rhythm that these constant little noises make helps create the bouncy rhythm of Minion speech. The Minions often get into fights with each other or get into trouble, which provides the perfect opportunity to scream, grunt, and giggle. When running or riding bikes, Minions breathe in and out loudly, when they make goals or hear exciting news, they cheer, and of course, they laugh all the time, at almost everything! (src. WikiHow)",
         "grammarCompleted": false
       },
       "vocab": {
@@ -179,16 +259,37 @@
         "vocabCompleted": false
       },
       "dialogue": {
-        "newDialogue": "A conversation between Minions. Minions 15:04",
+        "newDialogue": "Minions watcing a TV Show. (Minions)",
         "dialogueData": [
-          { "speaker": "gru", "sentence": "", "translation": "" },
-          { "speaker": "gru", "sentence": "", "translation": "" },
-          { "speaker": "gru", "sentence": "", "translation": "" }
+          {
+            "speaker": "Kevin",
+            "sentence": "Oh, pating gyam. Ok, la tropa. ",
+            "translation": "Oh, dating game. Okay, let's try it."
+          },
+          {
+            "speaker": "TV Show Host",
+            "sentence": "And welcome back to the dating game.",
+            "translation": ""
+          },
+          {
+            "speaker": "TV Show Host",
+            "sentence": "Well Jennifer, have you decided which of these three men you'll go on a date with?",
+            "translation": ""
+          },
+          { "speaker": "TV Show Host", "sentence": "Is it Bob?", "translation": "" },
+          { "speaker": "Bob", "sentence": "Yea! Go Bob!", "translation": "Yeah! Go Bob!" },
+          { "speaker": "TV Show Host", "sentence": "Kevin?", "translation": "" },
+          {
+            "speaker": "Kevin",
+            "sentence": "Se la me! Kevin!",
+            "translation": "That's me! Kevin!"
+          },
+          { "speaker": "TV Show Host", "sentence": "Or will it be Stuart?", "translation": "" },
+          { "speaker": "Stuart", "sentence": "Oh! Yo, Stuart!", "translation": "Oh! Yeah, Stuart!" }
         ],
         "dialogueCompleted": false
       }
     },
-    "unitCompleted": false,
-    "completedDate": ""
+    "unitCompleted": false
   }
 ]

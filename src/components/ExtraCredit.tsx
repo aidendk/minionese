@@ -4,7 +4,7 @@ import { Separator, XStack, YStack } from 'tamagui';
 
 import { Container, WhiteText } from '~/tamagui.config';
 
-// hard coded, no links currently
+// Hard coded, no links currently
 
 const ExtraCredit = () => {
   return (
