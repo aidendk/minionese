@@ -4,7 +4,7 @@ Hey! thanks for checking out this project :) I'm building this as a fun way to i
 
 This project is built using TypeScript with Expo and React Native, along with Tamagui for styling.
 
-This is still a work in progress and I'm still deciding what I want to do this project- Eventually I may attempt connecting it to a backend like MongoDB Realm, or experimenting with self-hosting a backend server to learn how to do that.
+This is still a work in progress and I'm still deciding what I want to do this project- Eventually I may attempt connecting it to a backend like MongoDB Realm, or experimenting with self-hosting a backend server to learn how to do that. Some buttons currently have no functionality, while others will lead to other pages / modals (ex. "More Stats" button opens up a modal, and each unit has separate pages for Grammar and Dialogue, but the "Extra Credit" and "Activity" sections currently have no functionality).
 
 <h2>Installation Instructions</h2>
 
@@ -20,7 +20,7 @@ If you're interested in testing this project out, here's some instructions to ge
 - Scan the QR code with your camera, and open it in the Expo Go app.
 - ** Make sure the device you are running the code on and the device you are using to test the code are connected to the same WiFi network.
 - ** You will also receive a prompt from Expo Go requesting access to your local network, accept this. This is what allows you to run your code on your phone without having to plug it into the device running the code. You may have to scan the QR code again after doing this.
-- If you still can't get your phone to connect, you can use an emulator to display the project. In the terminal, using the keyboard and pressing "a" will open an android emulator and prompt you to download the dependencies required for this. Pressing "i" will open an iOS emulator and prompt you to dnwload the dependencies for this (You will need a Mac for this, as it requires XCode).
+- If you still can't get your phone to connect, you can use an emulator to display the project. In the terminal, using the keyboard and pressing "a" will open an android emulator and prompt you to download the dependencies required for this. Pressing "i" will open an iOS emulator and prompt you to download the dependencies for this (You will need a Mac for this, as it requires XCode).
 - After that, you're done! You can make changes to the code and once the file is saved, the project updates in real time, displaying your changes immediately. Have fun! :)
 
 <h3>Getting Started</h3>
